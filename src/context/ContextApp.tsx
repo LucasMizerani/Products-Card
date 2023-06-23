@@ -1,12 +1,21 @@
 import { createContext } from "react";
 
+interface ProductsArray {
+    id: string;
+    price: number;
+    title: string;
+    thumbnail: string;
+};
+
+
+
 interface AppContextProps {
-    cartItems: Array<any>;
+    cartItems: Array<ProductsArray>;
     cartVisible: boolean;
     setCartVisible: any;
     setLoading: any;
     setProducts: any;
-    products: Array<any>;
+    products: Array<ProductsArray>;
     loading: boolean;
     setCartItems: any;
     setDisplayConfirm: any;
