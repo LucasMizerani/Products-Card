@@ -1,0 +1,33 @@
+.search_bar {
+    display: flex;
+    background-color: white;
+    width: 100%;
+    max-width: 500px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+    justify-content: space-between;
+    gap: 13px;
+    padding-right: 13px;
+    
+}
+
+.search_input {    
+    padding: 13px;
+    flex-grow: 1;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    font-weight: 500px;
+    border-right: 1px solid #ccc;
+    
+}
+
+.search_button {    
+    background: none;
+    border: none;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    cursor: pointer;
+}

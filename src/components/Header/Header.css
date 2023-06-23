@@ -1,0 +1,61 @@
+.header_page div {
+    background: linear-gradient(to right, rgb(237, 0, 41), rgb(255, 0, 166), rgb(50, 0, 142));
+    padding: 4px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
+.title_header{
+    font-family: 'Questrial', sans-serif;
+    color: white;
+    justify-content: center;
+    padding-right: 20px;
+    margin-top: 5px;
+    font-size: 40px;
+}
+
+.icon_header {
+    color: white;
+    margin: 0 10px;
+    font-size: 60px;
+    padding: 0 10px;
+    
+}
+
+
+.shopp_cart {
+    color: white;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    font-size: 25px;
+    transition: font-size 0.9s ease;
+    background: none;
+    border: none;
+}
+
+.shopp_cart:hover {
+    font-size: 26px;
+}
+
+.cart_status {
+    background-color: red;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 10px;
+    font-weight: 600;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+

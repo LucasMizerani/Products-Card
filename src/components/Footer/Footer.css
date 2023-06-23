@@ -1,0 +1,38 @@
+.footer_page {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: auto;
+    background: linear-gradient(to right, rgb(237, 0, 41), rgb(255, 0, 166), rgb(50, 0, 142));
+    text-align: center;
+}
+
+.footer_page ul {
+    list-style-type: none;
+    
+}
+
+.footer_page li {
+    text-align: center;
+    align-items: center;
+    display: inline-block;
+    margin: 0 5px;
+    padding: 6px;
+    cursor: pointer;
+    font-size: 20px;
+    color: white;
+}
+
+
+.facebook:hover {
+    color: rgb(26, 26, 255);
+}
+
+.instagram:hover {
+    color: rgb(139, 0, 116)
+}
+
+.linkedin:hover {
+    color: rgb(26, 26, 255);
+}
