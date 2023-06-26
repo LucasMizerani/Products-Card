@@ -10,6 +10,13 @@ const HeaderPage: React.FC = () => {
 
     const { cartItems, cartVisible, setCartVisible } = useContext(AppContext);
 
+    const handleClick = () => {
+        if (cartVisible) {
+            setCartVisible(false);
+        } else if (cartItems.length > 0) {
+            setCartVisible(!cartVisible);
+        }
+    }
 
     return (
         <header className="header_page">
@@ -18,7 +25,7 @@ const HeaderPage: React.FC = () => {
                 <SearchBar />
                 <button type="button"
                     className="shopp_cart"
-                    onClick={() => setCartVisible(!cartVisible)}
+                    onClick={handleClick}
                 >
                     <FaShoppingCart />
                     {cartItems.length > 0 && <span className='cart_status'>{cartItems.length}</span>}

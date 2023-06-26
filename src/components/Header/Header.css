@@ -37,10 +37,11 @@
     transition: font-size 0.9s ease;
     background: none;
     border: none;
+    cursor: pointer;
 }
 
 .shopp_cart:hover {
-    font-size: 26px;
+    color: rgb(250, 255, 195);
 }
 
 .cart_status {
