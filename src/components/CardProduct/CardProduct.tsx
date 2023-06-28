@@ -49,7 +49,10 @@ const CardProduct: React.FC<CardProductProps> = ({ infos }) => {
 
     return (
 
-        <section className="product_card">
+        <section 
+        className="product_card"
+        onClick={handleAddCart}
+        >
             <img src={thumbnail.replace(/\w\.jpg/gi, "W.jpg")} alt="product" className="card_image" />
             <div className="card_infos">
                 <h2 className="card_price">{priceCurrency(price)}</h2>
