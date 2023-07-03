@@ -55,7 +55,7 @@
 
 .confirm_button {
     font-size: 13px;
-    background: rgb(0, 226, 0);    
+    background: linear-gradient(to top, #00EE18, #058F00);
     cursor: pointer;
     padding: 5px;
     text-align: center;
@@ -65,14 +65,13 @@
     height: 40px;
     max-width: 140px;
     border: none;
-    border-radius: 4px;
+    border-radius: 40px;
     position: fixed;
 }
 
 .confirm_button:hover {
     outline: none;
-    border: 1px solid rgba(0, 0, 0, 0.5);
-    color: rgb(255, 241, 255);
+    background: linear-gradient(to top, #058F00, #00EE18);
 }
 
 .confirm {
